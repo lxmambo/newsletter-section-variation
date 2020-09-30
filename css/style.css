@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+.container {
+    background: url(dancers.gif) no-repeat center;
+    background-size: cover;
+    padding: 70px 40px;
+    text-align: center;
+    background:#F2F4F7;
+    color: #1A1A1D;
+}
+
+.container p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.email-box{
+    padding: 10px;
+    height: 55px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.email-box i{
+    background:#FC4445;
+    width: 55px;
+    line-height: 55px;
+    margin:0 0 0 17px;
+}
+
+.tbox,.btn{
+    border: none;
+    outline: none;
+}
+
+.tbox{
+    width: 0px;
+    transition: 0.6s;
+}
+
+.email-box:hover > .tbox,.tbox:focus{
+    width: 350px;
+    padding: 0px 10px;
+    border-radius:0px 5px 5px 0px;
+}
+
+.btn{
+    background: #FC4445;
+    width:100px;
+    margin: 0 20px;
+    color:white;
+    font-size: 15px;
+    font-weight: 20; /* não está a funcionar */
+    cursor: pointer;
+    border-radius:5px; 
+}
+
